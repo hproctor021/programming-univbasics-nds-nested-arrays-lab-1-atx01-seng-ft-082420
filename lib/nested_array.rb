@@ -28,7 +28,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  sorted_matrix[row][column] = new_new
+  matrix[row][column] = new_value
   return new_new
   
   # Given any matrix (array of arrays), a row index and a column index, 
